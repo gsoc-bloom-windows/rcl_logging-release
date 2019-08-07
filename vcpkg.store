@@ -1,1 +1,1 @@
-{"trim": "", "base": "dd22206", "trimbase": "", "parent": "vcpkg/dashing/rcl_logging_log4cxx", "previous": "9e8c0b6"}
+{"base": "2c76c30", "parent": "vcpkg/dashing/rcl_logging_log4cxx", "previous": "477a27b", "trim": "", "trimbase": ""}
