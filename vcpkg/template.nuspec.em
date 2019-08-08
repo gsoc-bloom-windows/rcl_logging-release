@@ -1,16 +1,15 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>ros-dashing-rcl-logging-log4cxx</id>
-    <version>0.2.1</version>
-    <title>ros-dashing-rcl-logging-log4cxx</title>
-    <authors>Amazon B9 <amazon-b9-ros@amazon.com></authors>
+    <id>@(Package)</id>
+    <version>@(Version)</version>
+    <title>@(Package)</title>
+    <authors>@(Authors)</authors>
     <owners>OSRF</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>C API providing common interface to a shared library wrapping 3rd party loggers.</description>
-<dependencies>
-      <dependency id="ros-dashing-rcutils"/>
-      <dependency id="ros-dashing-ros-workspace"/>
+    <description>@(Description)</description>
+    <dependencies>
+@[for d in Depends]@(d)@[end for]
     </dependencies>
   </metadata>
   <files>
