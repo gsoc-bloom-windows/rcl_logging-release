@@ -1,4 +1,0 @@
-Source: ros-dashing-rcl-logging-log4cxx
-Version: 0.2.1
-Description: C API providing common interface to a shared library wrapping 3rd party loggers.
-Build-Depends:
