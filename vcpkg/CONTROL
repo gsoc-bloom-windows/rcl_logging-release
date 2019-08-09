@@ -1,4 +1,0 @@
-Source: ros-dashing-rcl-logging-noop
-Version: 0.2.1
-Description: An rcl logger implementation that doesn't do anything with log messages.
-Build-Depends:
